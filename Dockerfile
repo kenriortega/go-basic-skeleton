@@ -3,9 +3,6 @@
 # Start from the latest golang base image
 FROM golang:1.17-alpine as builder
 
-# Add Maintainer Info
-LABEL maintainer="Kenrique Ortega <kenriortega@gmail.com>"
-
 ENV GO111MODULE=on
 
 RUN apk --no-cache add ca-certificates build-base upx
