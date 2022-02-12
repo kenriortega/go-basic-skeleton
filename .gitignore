@@ -38,3 +38,4 @@ build
 *.csr
 dist
 build
+*.txt
