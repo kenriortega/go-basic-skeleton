@@ -10,7 +10,7 @@ It could be useful if you want to start from scratch a project. The idea is that
 You could manually clone this repo or just us it as a template
 
 ### Cloning the repository
-We recommend to follow the next step by step process in order to avoid adding the bootstrap project commits to your project Git history:
+I recommend to follow the next step by step process in order to avoid adding the bootstrap project commits to your project Git history:
 
 Use this repositoy template
  - Clone your project
@@ -36,4 +36,6 @@ Use this repositoy template
 │       └── logger.go
 ```
 
-We'll try to maintain this project as simple as possible, but Pull Requests are welcome!
+### Contributors
+
+I'll try to maintain this project as simple as possible, but Pull Requests are welcome!
