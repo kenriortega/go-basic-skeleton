@@ -8,5 +8,5 @@ docker-build:
 	docker build -t username/basic-go:${git_hash} \
 		-f Dockerfile .
 docker-api:
-	docker run --name importer --rm -m 128m --cpus="0.25" \
+	docker run --name app --rm -m 128m --cpus="0.25" \
 	 -e SOME_TEXT="Hello world" username/basic-go:${git_hash}
