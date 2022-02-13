@@ -32,4 +32,4 @@ COPY --from=builder /app/basic .
 
 ENV SOME_TEXT="Hello world"
 
-ENTRYPOINT ["/app/baisc"]
+ENTRYPOINT ["/app/basic"]
