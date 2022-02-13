@@ -18,7 +18,7 @@ func init() {
 
 	log, err = config.Build(zap.AddCallerSkip(1))
 	if err != nil {
-		panic(err)
+		log.Fatal(err.Error())
 	}
 }
 
@@ -45,4 +45,9 @@ func Fatal(message string, fields ...zap.Field) {
 // Warn wrap for log.Warn
 func Warn(message string, fields ...zap.Field) {
 	log.Warn(message, fields...)
+}
+
+// Sync wrap for log.Sync
+func Sync() error {
+	return log.Sync()
 }
